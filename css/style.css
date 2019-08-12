@@ -1,0 +1,227 @@
+/* Inicio cabeçalho */
+header .logo{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    justify-content: center;
+    width: 100%;
+    height: 510px;
+    z-index: -1;
+}
+/* Fim cabeçalho */
+
+/* menu */
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 440px;
+    width: 90%;
+
+}
+header nav a{
+    background-color: purple;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    margin: 50px;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+header nav a:hover{
+    font-size: 105%;
+}
+/* Fim menu */
+
+/* conteúdo */
+section div{
+    background-color:white;
+    display: flexbox;
+    border-radius: 10px;
+    text-align: justify;
+    align-content: center;
+    padding: 4rem;
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+section div h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 1px;
+}
+section div h2{
+    font-size: 2rem;
+}
+section div h3{
+    font-size: 1.5rem;
+}
+section div p{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px){
+    header .logo{
+        height: 260px;
+        margin-top: 2em;
+    }
+    header nav ul{
+        position: fixed;
+        background-color:black;
+        top: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 40px;
+    }
+    header nav a{
+        display: grid;
+        margin: .6em;
+        padding: .2em;
+        text-align: center;
+        width: 90%;
+        }
+    section div{
+        text-align: justify;
+        align-content: center;
+        padding: 4rem;
+        width: 300px;
+        margin: 1rem auto;
+        margin-top: 300px;
+    }
+    section div h1{
+        font-size: 1.8rem;
+    }
+    section div h2{
+        font-size: 1.5rem;
+    }
+    section div h3{
+        font-size: 1.2rem;
+    }
+    section div p{
+        font-size: 1rem;
+    }
+    img {
+        width: 300px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .form-contact{
+        width: 100%;
+        margin: 20rem auto;
+    }
+}
+/* Fim conteúdo */
+
+/* Formulário */
+.container {
+    width: 50%;
+    margin: 100px auto;
+  }
+  
+.form-contact {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+  
+.form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+}
+  
+.form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+}
+  
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+}
+  
+.form-contact-button:hover {
+    opacity: 1;
+}
+/* Fim formulário */
+
+/* Rodapé */
+#footer{
+    position: absolute;
+    width: 100%;
+    background-color: #111111;
+    color: purple;
+    padding: .1rem;
+    right: 0;
+    left: 0;
+    margin: 10px auto;
+}
+.copyright {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.lista, a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 30px;
+    color: purple;
+}
+#twitter{
+    color: yellow;
+}
+#facebook{
+    color: blue;
+}
+#instagram{
+    color: red;
+}
+#git{
+    color: yellow;
+}
+
+/* Fim Rodapé */
